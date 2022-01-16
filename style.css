@@ -40,6 +40,12 @@ header{
 }
 /* header area  end */
 /* banner area start   */
+.banner-area{
+  margin-top: 50px;
+}
+.influencer-journey{
+  padding-right: 80px;
+}
 .influencer-journey h1{
   font-size: 52px;
   color: #3A3A3A;
@@ -62,6 +68,78 @@ header{
 .button a i{
   margin-left: 8px;
 }
-.camera-img{
-  width: 475px;
+/* finished Banner area    */
+.logo-area{
+  margin-top: 80px;
 }
+.container{
+  max-width: 1010px;
+  margin: 0 auto;
+}
+.sponser-area{
+  border-top: 1px solid #C0CCDA99;
+  border-bottom: 1px solid #C0CCDA99;
+  padding: 30px;
+}
+.sponser-area ul{
+  display: flex;
+}
+.sponser-area ul li{
+  margin-left: 40px;
+  list-style: none;
+}
+/* logos area  end  */
+/* Popular-Collection  */
+.Popular-Collection h1{
+  text-align: center;
+  color: #3A3A3A;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.collections{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 30px;
+}
+.collection{
+  width: 330px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+}
+.collection .banner-collection img{
+  width: 100%;
+}
+.title h3{
+  font-size: 28px;
+  color: #18191F;
+}
+.cost{
+  color: #000000DE;
+  font-size: 24px;
+}
+.fa-star{
+  font-size: 12px;
+}
+.fa-star.filled{
+  color: #FB8200;
+}
+.fa-star-half-alt{
+  font-size: 12px;
+}
+.fa-star-half-alt.half{
+  color: #FB8200;
+}
+.rating span{
+  color: #5E6366;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.description{
+  color: #787885;
+  font-size: 14px;
+}
+
+
